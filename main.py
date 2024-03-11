@@ -60,3 +60,16 @@ if __name__ == "__main__":
     window = BrowserWindow()
     window.show()
     sys.exit(app.exec_())
+
+
+"""1.
+First, install Pylnstaller if you havent already:
+Copy code
+##########pip install pyinstaller
+2. Then, navigate to the directory containing your Python script ('browser. py- in
+this case) using the command line.
+3. Run the following command to create an executable:
+Copy code
+######pyinstaller --onefile browser.py
+
+4. Pylnstaller will create a *dist- directory containing your executable. You can"""
